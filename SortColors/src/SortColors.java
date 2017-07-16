@@ -22,7 +22,7 @@ public class SortColors {
         }
     }
 
-    private static void swap(int a, int b, int[] arr) {
+    private void swap(int a, int b, int[] arr) {
         int temp = arr[b];
         arr[b] = arr[a];
         arr[a] = temp;
