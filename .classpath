@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="3Sum/src"/>
+	<classpathentry kind="src" path="containsNearbyDuplicate/src"/>
+	<classpathentry kind="src" path="findDisappearedNumbers/src"/>
+	<classpathentry kind="src" path="findMaxConsecutiveOnes/src"/>
+	<classpathentry kind="src" path="findPairs/src"/>
+	<classpathentry kind="src" path="maxArea/src"/>
+	<classpathentry kind="src" path="missingNumber/src"/>
+	<classpathentry kind="src" path="moveZeroes/src"/>
+	<classpathentry kind="src" path="thirdMax/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="3Sum/bin"/>
+</classpath>
