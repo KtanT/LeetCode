@@ -6,6 +6,7 @@ import java.util.List;
 
 /**
  * @author Kyran
+ * minNums[col]=min(minNums[col], minNums[col+1]) + triangle[row][col];
  */
 public class Triangle {
     public int minimumTotal(List<List<Integer>> triangle) {
