@@ -6,7 +6,7 @@
  * @author Kyran
  */
 public class MinDepthOfBinaryTree {
-    public class TreeNode {
+    public static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
@@ -16,7 +16,7 @@ public class MinDepthOfBinaryTree {
         }
     }
 
-    public int minDepth(TreeNode root) {
+    public static int minDepth(TreeNode root) {
         if (root == null) {
             return 0;
         }
@@ -24,7 +24,7 @@ public class MinDepthOfBinaryTree {
         return getMinDepth(root);
     }
 
-    private int getMinDepth(TreeNode node) {
+    private static int getMinDepth(TreeNode node) {
         if (node == null) {
             return Integer.MAX_VALUE;
         }
