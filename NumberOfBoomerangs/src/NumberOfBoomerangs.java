@@ -27,7 +27,7 @@ public class NumberOfBoomerangs {
             }
 
             for (int val : map.values()) {
-                result += val * (val - 1);
+                result += val * (val - 1);  //C[n,2] * 2
             }
             map.clear();
         }
