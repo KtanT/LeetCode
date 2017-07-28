@@ -14,7 +14,7 @@ public class Heaters {
 
         int i = 0, result = 0;
         for (int h : houses) {
-            while (i < heaters.length - 1 && heaters[i] + heaters[i + 1] <= h * 2) {
+            while (i < heaters.length - 1 && Math.abs(heaters[i] - h) >= Math.abs(heaters[i + 1] - h)) {
                 i++;
             }
             result = Math.max(result, Math.abs(heaters[i] - h));
